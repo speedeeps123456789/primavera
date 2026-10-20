@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>primavera</title>
+  <link rel="preload" href="PrimaveraVF.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="cursorDot" class="custom-cursor" aria-hidden="true">.</div>
+
+  <main class="center-stage">
+    <header class="stage-frame frame-top">
+      <div class="frame-item frame-top-left">Edoardo Pensieri</div>
+      <div class="frame-item frame-top-right">© 2026 · SIL OFL 1.1</div>
+    </header>
+
+    <div class="stage-wrap">
+      <h1 class="bloom-word" id="bloomWord" title="Clicca per scrivere">
+        <span class="letter">p</span><span class="letter">r</span><span class="letter">i</span><span
+          class="letter">m</span><span class="letter">a</span><span class="letter">v</span><span
+          class="letter">e</span><span class="letter">r</span><span class="letter">a</span>
+      </h1>
+      <a href="primavera.zip" download="primavera.zip" class="nursery-tag" id="dlBtn" title="scarica primavera.zip">
+        <div class="tag-unified-wrap">
+          <svg class="tag-unified-svg" viewBox="0 0 140 310" aria-hidden="true">
+            <path d="M 68 28 Q 63 80 69 138" fill="none" stroke="var(--plum)" stroke-width="2.2" />
+            <path d="M 36 124 L 104 124 L 126 146 L 126 304 L 14 304 L 14 146 Z" fill="var(--fill)" stroke="var(--plum)"
+              stroke-width="2.4" stroke-linejoin="round" />
+            <circle cx="70" cy="138" r="7.5" fill="none" stroke="var(--plum)" stroke-width="2" />
+            <circle cx="70" cy="138" r="5" fill="var(--bg)" />
+            <path d="M 52 14 C 52 2, 88 2, 88 14 C 88 24, 76 26, 70 28" fill="none" stroke="var(--plum)"
+              stroke-width="2.6" stroke-linecap="round" />
+            <circle cx="70" cy="28" r="4.5" fill="var(--plum)" />
+            <ellipse cx="70" cy="28" rx="2.2" ry="1.4" fill="var(--fill)" />
+            <path d="M 72 28 Q 77 80 71 138" fill="none" stroke="var(--plum)" stroke-width="2.2" />
+          </svg>
+
+          <div class="tag-content">
+            <span class="tag-cultivar">primavera</span>
+            <span class="tag-arrow">↓</span>
+            <span class="tag-action">download</span>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <footer class="stage-frame frame-bottom">
+      <div class="frame-item frame-bottom-left">based on Cormorant Garamond</div>
+
+      <div class="frame-item frame-slider-wrap" id="sliderControl">
+        <span class="slider-label">Bare</span>
+        <input type="range" id="growSlider" min="0" max="100" value="0" step="1" aria-label="GROW: Bare to Growth">
+        <span class="slider-label">Growth</span>
+      </div>
+
+      <div class="frame-item frame-bottom-right">type anywhere to edit</div>
+    </footer>
+  </main>
+
+  <section class="specimen-section" aria-label="specimen tipografico">
+    <div class="specimen-container">
+
+      <div class="specimen-block">
+        <div class="specimen-meta">84pt — Giacomo Leopardi</div>
+        <p class="specimen-text size-96">Primavera dintorno brilla nell'aria,<br>e per li campi esulta.</p>
+      </div>
+
+      <div class="specimen-block">
+        <div class="specimen-meta">56pt — Giovanni Pascoli</div>
+        <p class="specimen-text size-64">Gemmea l'aria, il sole così chiaro che tu cerchi gli albicocchi in fiore, e del
+          prunalbo l'odorino amaro senti nel cuore.</p>
+      </div>
+
+      <div class="specimen-block">
+        <div class="specimen-meta">36pt — Gabriele D'Annunzio</div>
+        <p class="specimen-text size-42">Piove su le tamerici salmastre ed arse, piove su i pini scagliosi ed irti,
+          piove su le ginestre divine, su i cespugli di verzura e su le nostre fresche speranze.</p>
+      </div>
+
+      <div class="specimen-block">
+        <div class="specimen-meta">24pt — Cesare Pavese</div>
+        <p class="specimen-text size-28">Ritornerà la primavera, e l'aria chiara avrà la forza dei rami che si aprono al
+          vento. La terra non è più sola e lungo le siepi ogni cespuglio si veste di nuovo verde: c'è un silenzio vivo
+          tra le foglie, un sentore di linfa che risveglia la collina fin nelle radici più profonde.</p>
+      </div>
+
+      <div class="specimen-block">
+        <div class="specimen-meta">16pt — Ada Negri</div>
+        <p class="specimen-text size-18">Che dice la terra che si desta al sole? Dice che l'inverno è finito, che le
+          radici profonde sentono il tepore e dai cespugli spogli salgono le prime gemme turgide. Ogni ramo dimentica il
+          gelo e si distende verso l'azzurro. L'erba spunta timida tra le crepe dei sassi, gli insetti riprendono il
+          loro ronzio sommesso e la vita ricomincia piano, potente e verdeggiante nell'aria pura di primavera. Tutto
+          rinasce senza rumore, obbedendo al richiamo segreto della luce che feconda i campi e le selve.</p>
+      </div>
+
+      <div class="specimen-block glyphs-block">
+        <div class="specimen-meta">Complete glyph set — 946 glyphs</div>
+        <div class="glyphs-overview specimen-text" id="glyphGrid" aria-label="Complete glyph set"></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col footer-brand">
+          <div class="footer-title">primavera</div>
+        </div>
+
+        <div class="footer-col footer-license">
+          <p>Primavera is released under the SIL Open Font License 1.1 (OFL-1.1), allowing anyone to use, study, modify and redistribute the typeface under the terms of the license.</p>
+        </div>
+
+        <div class="footer-col footer-credits">
+          <p class="footer-heading">Designed by:</p>
+          <p>Edoardo Pensieri</p>
+          <p><a href="https://github.com/speedeeps123456789/primavera" target="_blank" rel="noopener">github.com/speedeeps123456789</a></p>
+        </div>
+
+        <div class="footer-col footer-download">
+          <p class="footer-heading">Download:</p>
+          <p>TTF Variable & Static</p>
+          <p><a href="primavera.zip" download="primavera.zip">primavera.zip</a></p>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
