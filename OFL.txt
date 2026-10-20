@@ -1,3 +1,4 @@
+Copyright 2026 The Primavera Project Authors (https://github.com/speedeeps123456789/primavera)
 Copyright 2015 The Cormorant Project Authors (https://github.com/CatharsisFonts/Cormorant), with Reserved Font Name "Cormorant".
 Modifications copyright 2026 Edoardo Pensieri.
 

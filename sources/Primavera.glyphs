@@ -1375397,11 +1375397,29 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2026 The Primavera Project Authors (https://github.com/speedeeps123456789/primavera)";
+},
+);
+},
+{
 key = designers;
 values = (
 {
 language = dflt;
 value = "Edoardo Pensieri";
+},
+);
+},
+{
+key = designerURL;
+values = (
+{
+language = dflt;
+value = "https://github.com/speedeeps123456789/primavera";
 },
 );
 },

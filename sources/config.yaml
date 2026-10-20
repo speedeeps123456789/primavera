@@ -1,0 +1,9 @@
+sources:
+  - Primavera.glyphs
+family_name: Primavera
+archive: Primavera.zip
+buildVariable: true
+buildStatic: true
+axisOrder:
+  - GROW
+googlefonts: true
